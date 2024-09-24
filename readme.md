@@ -16,9 +16,9 @@
 
 项目中使用到了一些第三方的开源代码，并没有打包为动态库使用而是直接使用的源代码。
 
-pugiXML： [](https://github.com/zeux/pugixml)
+pugiXML： [pugiXML](https://github.com/zeux/pugixml)
 
-Qxt qxtglobalshortcut qt5：[](https://github.com/ddqd/qxtglobalshortcut5)
+Qxt qxtglobalshortcut qt5：[Qxt qxtglobalshortcut qt5](https://github.com/ddqd/qxtglobalshortcut5)
 
 ### 最后
 
