@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateUI</class>
+ <widget class="QWidget" name="UpdateUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	font: 9pt &quot;微软雅黑&quot;;
+	
+	border-color: rgb(180, 180, 180);
+	border: solid;
+	border-width:1px;
+	border-radius:5px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, 		x2:0, y2:1, stop:0 rgba(170, 255, 255, 255), stop:1 			rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+	font: 9pt &quot;微软雅黑&quot;;
+	border-color: rgb(180, 180, 180);
+	border: solid;
+	border-width:1px;
+	border-radius:5px;
+	
+	background-color: qlineargradient(spread:pad, x1:0.011, y1:0.0170455, x2:0.0170455, y2:1, stop:0 rgba(218, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButtonUpdate">
+       <property name="minimumSize">
+        <size>
+         <width>60</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>更新</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonIgnore">
+       <property name="minimumSize">
+        <size>
+         <width>60</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>忽略</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

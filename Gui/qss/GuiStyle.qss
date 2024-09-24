@@ -1,0 +1,98 @@
+QToolButton{
+	border: solid;
+    border-right-width:0px;
+	background-color: rgba(199, 199, 199, 0);
+}
+QToolButton::hover{
+	background-color: rgba(199, 199, 199, 90);
+}
+OriginUI--DrawerWidget{
+	background-color: rgba(199, 199, 199, 90);
+}
+OriginUI--ToolBar{
+	background-color: rgba(199, 199, 199, 0);
+}
+
+NGui--NoteTextEdit{
+	background-color: rgba(199, 199, 199, 0);
+	border: solid;
+    border-right-width:0px;
+}
+#BottomDrawerWidget{
+	background-color: rgba(199, 199, 199, 0);
+	border: solid;
+    border-width:0px;
+	border-top-width:1px;
+	border-color: rgb(157, 157, 157);
+}
+NGui--HistoryWidget{
+background-color:rgb(255,255,255);
+}
+NGui--HistoryWidget QListWidget{
+	border: solid;
+    border-width:0px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color: rgba(199, 199, 199, 0);
+}
+NGui--HistoryWidget QListWidget::item{
+	margin-bottom:15px;
+}
+NGui--HistoryWidget QListWidget::item::hover{
+	background-color: rgba(199, 199, 199, 0);
+}
+#serchEdit{
+	padding-left:10px;
+	padding-right:10px;
+}
+#serchEdit QLineEdit{
+	border: none;
+	background-color: rgba(100, 100, 100,50);
+	font: 12pt "华文中宋";
+	padding-left:5px;
+	padding-right:5px;
+}
+#serchEdit QToolButton{
+	border: none;
+	background-color: rgba(100, 100, 100,50);
+	padding-left:5px;
+	padding-right:5px;
+}
+#serchEdit QToolButton:pressed{
+	padding-right:3px;
+	padding-bottom:-3px;
+}
+
+NGui--HistoryWidget NGui--StickyNoteItem QTextEdit{
+	background-color: rgba(199, 199, 199, 0);
+	border: solid;
+    border-right-width:0px;
+}
+OriginUI--EditLable QLineEdit{
+	background-color: rgba(199, 199, 199, 0);
+	border: solid;
+    border-bottom-width:1px;
+}
+OriginUI--EditLable QToolButton{
+	background-color: rgba(199, 199, 199, 0);
+	border: solid;
+    border-width:0px;
+}
+NGui--ToDoListItem QToolButton{
+	background-color: rgba(199, 199, 199, 0);
+	border: solid;
+    border-width:0px;
+}
+NGui--ToDoListContent{
+    background-color: transparent; /* 设置背景为透明 */
+    border: none; /* 取消边框 */
+}
+
+NGui--ToDoListContent::item:hover{
+    background-color: transparent; /* 设置背景为透明 */
+    border: none; /* 取消边框 */
+}
+NGui--ToDoListContent::item:select{
+    background-color: transparent; /* 设置背景为透明 */
+    border: none; /* 取消边框 */
+}

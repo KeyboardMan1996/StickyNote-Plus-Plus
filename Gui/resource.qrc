@@ -1,0 +1,58 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/delete.svg</file>
+        <file>icon/pinDesktopBlack.svg</file>
+        <file>icon/pinDesktopRed.svg</file>
+        <file>icon/pinTopBlack.svg</file>
+        <file>icon/pinTopRed.svg</file>
+        <file>icon/fontLower.svg</file>
+        <file>icon/fontUp.svg</file>
+        <file>icon/add_note.svg</file>
+        <file>icon/icon.svg</file>
+        <file>icon/exit.svg</file>
+        <file>icon/color.svg</file>
+        <file>icon/pencil-mark.svg</file>
+        <file>icon/Marker.svg</file>
+        <file>icon/MarkerRed.svg</file>
+        <file>icon/off.svg</file>
+        <file>icon/on.svg</file>
+        <file>icon/copy.svg</file>
+        <file>icon/strikeOutBlack.svg</file>
+        <file>icon/strikeOutRed.svg</file>
+        <file>icon/toCenterBlack.svg</file>
+        <file>icon/toCenterRed.svg</file>
+        <file>icon/history.svg</file>
+        <file>icon/search.svg</file>
+        <file>icon/font_blod.svg</file>
+        <file>icon/font_blod_red.svg</file>
+        <file>icon/font_center.svg</file>
+        <file>icon/font_center_red.svg</file>
+        <file>icon/font_italic.svg</file>
+        <file>icon/font_italic_red.svg</file>
+        <file>icon/font_left.svg</file>
+        <file>icon/font_left_red.svg</file>
+        <file>icon/font_right.svg</file>
+        <file>icon/font_right_red.svg</file>
+        <file>icon/font_under_line.svg</file>
+        <file>icon/font_under_line_red.svg</file>
+        <file>icon/close.svg</file>
+        <file>icon/setting.svg</file>
+        <file>icon/font_list_red.svg</file>
+        <file>icon/font_color.png</file>
+        <file>icon/font_list_black.svg</file>
+        <file>icon/to_do_list_delete.svg</file>
+        <file>icon/to_do_list_finished.svg</file>
+        <file>icon/to_do_list_plan.svg</file>
+        <file>icon/to_do_list_unFinished.svg</file>
+        <file>icon/to_do_list_new_item.svg</file>
+        <file>icon/to_do_list_edit.svg</file>
+        <file>icon/to_do_list_edit_red.svg</file>
+        <file>icon/sticky_note_close.svg</file>
+    </qresource>
+    <qresource prefix="/Style">
+        <file>qss/GuiStyle.qss</file>
+    </qresource>
+    <qresource prefix="/translate">
+        <file>translate/StickyNoteGui.qm</file>
+    </qresource>
+</RCC>

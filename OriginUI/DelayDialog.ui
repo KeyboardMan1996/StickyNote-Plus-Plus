@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DelayDialog</class>
+ <widget class="QDialog" name="DelayDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>168</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel{
+	font: 9pt &quot;微软雅黑&quot;;
+}
+QWidget{
+background-color: rgb(255, 255, 255);
+}
+QPushButton{
+	font: 9pt &quot;微软雅黑&quot;;
+	
+	border-color: rgb(180, 180, 180);
+	border: solid;
+	border-width:1px;
+	border-radius:5px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, 		x2:0, y2:1, stop:0 rgba(170, 255, 255, 255), stop:1 			rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+	font: 9pt &quot;微软雅黑&quot;;
+	border-color: rgb(180, 180, 180);
+	border: solid;
+	border-width:1px;
+	border-radius:5px;
+	
+	background-color: qlineargradient(spread:pad, x1:0.011, y1:0.0170455, x2:0.0170455, y2:1, stop:0 rgba(218, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1">
+     <item>
+      <widget class="QPushButton" name="pushButtonOk">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonCancel">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
